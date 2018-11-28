@@ -1,6 +1,6 @@
 # Array
 
-An array is \[a linear data structure that takes up a contiguos block of memory.\].
+An array is a linear data structure that takes up a contiguos block of memory.
 
 # In Memory
 
