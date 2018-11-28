@@ -10,7 +10,7 @@ employer care?).
 ## The List
 
 * [Array](array.md)
-* Linked List
+* [Linked List](linkedlist.md)
 * Set
 * Tuple
 * Dictionary
