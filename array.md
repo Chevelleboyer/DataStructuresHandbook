@@ -28,7 +28,7 @@ It is not as useful when we need quick insertion and quick deletion. If our data
 # Example
 
 ```
-myArray = [] #instantiates an array
+myArray = [] #instantiates an empty array
 
 myArray.insert(2, 718) #inserts the value 718 at index 2
 del myArray(2) #deletes the element at index 2
