@@ -1,6 +1,6 @@
 # My Data Structures Handbook
 
-by YOUR NAME
+by Chevelle Boyer
 
 This is a summary of the data structures I have mastered. (More explanation here.
 Why is this important? What does this prove to potential employers? How does this
@@ -10,10 +10,10 @@ employer care?).
 ## The List
 
 * [Array](array.md)
-* List, Linked List
+* Linked List
 * Set
 * Tuple
 * Dictionary
-* TODO (more structures listed here)
+* 
 
-(c) YOUR NAME. All rights reserved.
+(c) Chevelle Boyer. All rights reserved.
