@@ -14,9 +14,8 @@ In memory, a queue looks like this:
 
 A queue supports the following operations:
 
-* **dequeue**: Dequeueing the first item from the queue. This operation has a complexity of O(1) because all we have to do to delete a node is make the node before the deletee point to the node after the deletee as it's next. There is no iteration involved. If we have to search for the item we wish to delete, then this is actually executed in O(n) because searching is O(n). The actual deletion itself is O(1).
-* **insert**: Inserting a node into the linked list. The complexity is O(1) as well because we just have to swap the next pointers around accordingly. For example, we just make the insertee's next point to the node we want to come after it. We then make the node before the insertee's next point to the insertee. As with deletion, this would only be an O(1) complexity if we had a handle on where things were. If we don't have a handle where items are we have to search for the space we want to insert and as mentioned above, searching is an O(n) operation.
-
+* **dequeue**: Dequeueing the first item from the queue. This operation has a complexity of O(1) because in the implementation we maintain a pointer to the first variable in the array or linked list (however we choose to implement it) to allow for constant time.
+* **enqueue**: Enqueueing an item to the end of the queue. The complexity of this operation is O(1) because we only ever enqueue to the end of the list. If we implement the queue using an array this operation is O(1) because inserting in arrays in O(1). If we implement the queue as a linked list the complexity to enqueue would still be O(1) because we would maintain a pointer to the end of the list.
 # Use Cases
 
 A linked list is useful when we need to do a lot of insertions or deletions because they are constant time operations.
