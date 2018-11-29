@@ -1,6 +1,6 @@
 # Stack
 
-A stack is a linear, and a LIFO (last in first out) data structure.
+A stack is a linear, and a LIFO (last in first out), data structure.
 
 # In Memory
 
@@ -12,27 +12,26 @@ In memory, a stack looks like this:
 
 # Operations
 
-An array supports the following operations:
+A stack supports the following operations:
 
-* **index/retrieval/access**: Obtain a value stored in the structure at a specific indexed position in the array.
-  * O(1), constant time. An array variable points to the first memory address (base address) in an array. We also know the data type of the elements in the array, and therefore the size of each element. Given the index of an element we wish to read, we can calculate the address of that element in just one calculation: base address + sizeof(datatype) * index. Since we can calculate this in one step for all values in the array, this is an O(1) constant time operation.
-* **delete**: This operation will delete an element in the array. The complexitiy of this operation is O(n) because after deleting an item you must shift all the other elements over to fill the empty space.
-* **insert**: Inserting a value into the middle of an array. The complexity of this operation is O(n) n being the size of the array. This is because in order to insert a value into an array you must shift every element after the insertee over.
-
+* **push**: Pushes an element onto the top of the stack. This operation is O(1) because we maintain a stack pointer that keeps track of where the top of the stack is at all times.
+* **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is important to note that popping does not return the value of the element popped.
+* **peek**: Peek allows us to view the value of the top item on the stack. It is an O(1) operation because of the stack pointer which always points to the top item.
 # Use Cases
 
-An array is useful when we need constant time access to any element in our data. Again, this is because just one calculation can direct us to any index in the array.
+A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.
 
-It is not as useful when we need quick insertion and quick deletion. If our data consisted of one million elements and we wanted to insert someting, we would have to shift nearly one million elements over, which is costly.
+A stack is not as useful when we need to access/insert/delte items in the middle of our data, or when we need to alter data already stored.
 
 # Example
 
 ```
-myArray = [] #instantiates an empty array
+pancake = Stack() #instantiates an empty stack
 
-myArray.insert(2, 718) #inserts the value 718 at index 2
-del myArray(2) #deletes the element at index 2
-myArray[0] #returns the first element
+pancake.push(blueberry) #pushes a blueberry pancake object onto the top of the stack
+pancake.push(bananaCream) #pushes a bananaCream pancake object onto top of stack
+pancake.push(chocolateChip) #pushes a chocolateChip pancake object onto top of stack
+pancake.pop() #removes chocolateChip pancake object from top of stack
 ```
 
 (c) 2018 Chevelle Boyer. All rights reserved.
