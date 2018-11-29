@@ -29,6 +29,7 @@ myQueue = Queue() #instantiates a Queue
 
 myQueue.enqueue(5) #enqueues 5 to the end of the queue
 myQueue.enqueue(18) #enqueues 18 to the end of the queue
+myQueue.enqueue(3) #enqueues 3 to the end of the queue
 myQueue.dequeue() #dequeues 5 from the queue
 ```
 
