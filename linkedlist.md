@@ -15,8 +15,8 @@ In memory, a linked list looks like this:
 A linked list supports the following operations:
 
 * **search**: Searching for an element in the linked list. The complexity of this operation is O(n). In order to see if an item is in the list, we have to check every node. This is becasue the only information each node has is it's next node. Therefore we must traverse through the entire list until we find the element we are looking for (or don't) making it O(n).
-* **delete**: Deleting a node from the linked list. This operation has a complexity of O(1) because all we have to do to delete a node is make the node before the deletee point to the node after the deletee as it's next. There is no iteration involved.
-* **insert**: Inserting a node into the linked list. The complexity is O(1) as well because we just have to swap the next pointers around accordingly. For example, we just make the insertee's next point to the node we want to come after it. We then make the node before the insertee's next point to the insertee.
+* **delete**: Deleting a node from the linked list. This operation has a complexity of O(1) because all we have to do to delete a node is make the node before the deletee point to the node after the deletee as it's next. There is no iteration involved. If we have to search for the item we wish to delete, then this is actually executed in O(n) because searching is O(n). The actual deletion itself is O(1).
+* **insert**: Inserting a node into the linked list. The complexity is O(1) as well because we just have to swap the next pointers around accordingly. For example, we just make the insertee's next point to the node we want to come after it. We then make the node before the insertee's next point to the insertee. As with deletion, this would only be an O(1) complexity if we had a handle on where things were. If we don't have a handle where items are we have to search for the space we want to insert and as mentioned above, searching is an O(n) operation.
 
 # Use Cases
 
