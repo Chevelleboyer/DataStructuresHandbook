@@ -12,6 +12,7 @@ employer care?).
 * [Array](array.md)
 * [Linked List](linkedlist.md)
 * [Stack](stack.md)
+* [Queue](queue.md)
 * Set
 * Tuple
 * Dictionary

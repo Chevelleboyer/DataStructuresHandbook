@@ -15,21 +15,21 @@ In memory, a queue looks like this:
 A queue supports the following operations:
 
 * **dequeue**: Dequeueing the first item from the queue. This operation has a complexity of O(1) because in the implementation we maintain a pointer to the first variable in the array or linked list (however we choose to implement it) to allow for constant time.
-* **enqueue**: Enqueueing an item to the end of the queue. The complexity of this operation is O(1) because we only ever enqueue to the end of the list. If we implement the queue using an array this operation is O(1) because inserting in arrays in O(1). If we implement the queue as a linked list the complexity to enqueue would still be O(1) because we would maintain a pointer to the end of the list.
+* **enqueue**: Enqueueing an item to the end of the queue. The complexity of this operation is also O(1) because we only ever enqueue to the end of the list. Whether we implement the queue using an array or a linked list this operation can be made O(1) by maintaing a pointer at the end of the array or linked list.
 # Use Cases
 
-A linked list is useful when we need to do a lot of insertions or deletions because they are constant time operations.
+A queue is useful when we need things to be processed in the order of which they come. An example of this would be a printer in the home. More than likely there is only one printer but many devices connected to it. The printer can print documents from all of them by printing in the order that they were sent to it.
 
-A linked list is not as useful when we need to do a lot of searching or checking to see if an element is in the linked list.
+A queue is not as useful when we need to insert or delete items from the middle of the queue because that is not the behavior of a queue. Likewise, if we need data to be processed in an order differnt from FIFO, the queue is not the structure we are looking for.
 
 # Example
 
 ```
-myLinkedList = Linkedlist() #instantiates a Linked List
+myQueue = Queue() #instantiates a Queue
 
-myLinkedList.insert(prev_node, 12) #inserts a node with value 12 after the "prev_node"
-myLinkedList.deleteNode(deletee) #deletes deletee node
-myLinkedList.search(22) #checks to see if node with value 22 exsists
+myQueue.enqueue(5) #enqueues 5 to the end of the queue
+myQueue.enqueue(18) #enqueues 18 to the end of the queue
+myQueue.dequeue() #dequeues 5 from the queue
 ```
 
 (c) 2018 Chevelle Boyer. All rights reserved.
