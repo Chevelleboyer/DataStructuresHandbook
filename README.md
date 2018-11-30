@@ -16,8 +16,8 @@ employer care?).
 * [Queue](queue.md)
 * [Deque](deque.md)
 * [Graph](graph.md)
+* [Dictionary](dictionary.md)
 * Set
-* Dictionary
 * 
 
 (c) Chevelle Boyer. All rights reserved.
