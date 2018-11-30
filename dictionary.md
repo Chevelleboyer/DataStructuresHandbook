@@ -4,9 +4,9 @@ A dictionary is an unordered structure that is a collection of pairs of items wh
 
 # In Memory
 
-In memory, a stack looks like this:
+In memory, a dictionary looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Dictionary in Memory](images/dict.jpg)
 
 \[There are a few ways to implement a dictionary. This drawing in memory is based off of an array implementation.\]
 

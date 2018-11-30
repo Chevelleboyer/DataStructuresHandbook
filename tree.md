@@ -6,7 +6,7 @@ A tree is a non-linear data structure. It consists of nodes, edges which connect
 
 In memory, a binary search tree looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of a Binary Search Tree in Memory](images/bst.jpg)
 
 \[description of diagram\]
 

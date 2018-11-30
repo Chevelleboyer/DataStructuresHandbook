@@ -6,7 +6,7 @@ A linked list is a linear data structure but it is NOT a contiguous block of mem
 
 In memory, a linked list looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Linked List in Memory](images/linkedlist.jpg)
 
 \[description of diagram\]
 

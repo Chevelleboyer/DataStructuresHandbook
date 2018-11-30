@@ -6,7 +6,7 @@ A set is an unordered collection of data objects similar to dictionaries but wit
 
 In memory, a set looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Set in Memory](images/set.jpg)
 
 \[description of diagram\]
 

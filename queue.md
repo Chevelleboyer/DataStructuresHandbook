@@ -6,7 +6,7 @@ A queue is a linear data structure but it is not a contiguous block of memory. I
 
 In memory, a queue looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Queue in Memory](images/queue.jpg)
 
 \[description of diagram\]
 

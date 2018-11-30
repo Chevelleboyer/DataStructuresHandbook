@@ -6,7 +6,7 @@ A graph is a non-linear data structure. All trees and linked lists are instances
 
 In memory, a graph looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Graph in Memory](images/graph.jpg)
 
 \[This is what a graph looks like in memory when implemented using an adjacency list. In this implementation vertices are stored as objects and each vertex stores a list of adjacent vertices.\]
 

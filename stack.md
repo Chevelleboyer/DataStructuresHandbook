@@ -6,7 +6,7 @@ A stack is a linear, and a LIFO (last in first out), data structure.
 
 In memory, a stack looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Stack in Memory](images/stack.jpg)
 
 \[description of diagram\]
 

@@ -6,7 +6,7 @@ A tuple is a linear data structure similar to an array. One of the differences b
 
 In memory, a tuple looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Tuple in Memory](images/tuple.jpg)
 
 \[description of diagram\]
 

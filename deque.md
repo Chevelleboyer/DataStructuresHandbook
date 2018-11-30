@@ -6,9 +6,9 @@ A deque is a double ended queue. Meaning that it is a queue that can support ite
 
 In memory, a deque looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of Deque in Memory](images/deque.jpg)
 
-\[description of diagram\]
+\[The two pointers will increase or decrease by one accordingly whenever an item is enqueued or dequeued from the the deque. Notice that the \]
 
 # Operations
 

@@ -8,8 +8,6 @@ In memory, an array looks like this:
 
 ![Image of Array in Memory](images/array_memory.png)
 
-\[description of diagram\]
-
 # Operations
 
 An array supports the following operations:

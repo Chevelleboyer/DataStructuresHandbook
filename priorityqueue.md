@@ -6,7 +6,7 @@ A priority queue is like a queue, but items have priorty which determines their 
 
 In memory, a priority queue looks like this:
 
-![Image of Array in Memory](images/array_memory.png)
+![Image of a Priority Queue in Memory](priorityqueue.jpg)
 
 \[description of diagram\]
 
