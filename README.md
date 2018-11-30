@@ -15,6 +15,7 @@ employer care?).
 * [Stack](stack.md)
 * [Queue](queue.md)
 * [Deque](deque.md)
+* [Priority Queue](priorityqueue.md)
 * [Graph](graph.md)
 * [Tree](tree.md)
 * [Dictionary](dictionary.md)
