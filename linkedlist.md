@@ -1,6 +1,6 @@
 # Linked List
 
-A linked list is a linear data structure but it is NOT a contiguous block of memory. We must always know where the first, or head, node is, as well as teaching the last node that it is the last by telling it there is no next. We are still able to navigate a linked list even though it is not sequential by only knowing each node's next. There is also a doubly linked list where each node points to the one after it and before it.
+A linked list is a linear data structure but it is NOT a contiguous block of memory. We must always know where the first, or head, node is, as well as teaching the last node that it is the last by telling it there is no next. We are still able to navigate a linked list even though it is not sequential by only knowing each node's next. There is also a doubly linked list where each node points to the one after it and before it. Similarily, a linked list can be circular, where the end nodes points to the head. We could implement a circular doubly linked list where each node points to the one before it and after it, the end node points to the head node, and the head points to the end node.
 
 # In Memory
 
