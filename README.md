@@ -2,10 +2,7 @@
 
 by Chevelle Boyer
 
-This is a summary of the data structures I have mastered. (More explanation here.
-Why is this important? What does this prove to potential employers? How does this
-differentiate you from someone who does not know data structures? Why should an
-employer care?).
+This is a summary of the data structures I have mastered. Data structures are a way to efficiently store and organzie data. These are important to know becasue they show an understanding of the actual mechanics. Knowing data structures also proves that given a problem I am equppied with the neccesary tools to solve it in an efficient and practical manner.
 
 ## The List
 
