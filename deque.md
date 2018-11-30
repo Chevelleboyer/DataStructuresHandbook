@@ -4,7 +4,7 @@ A deque is a double ended queue. Meaning that it is a queue that can support ite
 
 # In Memory
 
-In memory, a stack looks like this:
+In memory, a deque looks like this:
 
 ![Image of Array in Memory](images/array_memory.png)
 
@@ -12,26 +12,28 @@ In memory, a stack looks like this:
 
 # Operations
 
-A stack supports the following operations:
+A deque supports the following operations:
 
-* **push**: Pushes an element onto the top of the stack. This operation is O(1) because we maintain a stack pointer that keeps track of where the top of the stack is at all times.
-* **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is important to note that popping does not return the value of the element popped.
-* **peek**: Peek allows us to view the value of the top item on the stack. It is an O(1) operation because of the stack pointer which always points to the top item.
+* **enqueueFront**: EnqueueFront enqueues an item to the front of the queue. This operation has a complexity of O(1) as long as we maintain a pointer to the front of the deque.
+* **enqueueRear**: EnqueueRear enqueues an item to the reat of the queue. As with enqueueing from a normal queue, the complexity is O(1) as long as we maintain a pointer to the rear of the deque.
+* **dequeueFront**: DequeueFront dequeues an item from the front of the queue with a complexity of O(1) just like dequeing from a normal queue this is possible with a pointer at the front of the queue.
+* **dequeueRear**: DequeueRear dequeues an item from the rear of the deque. The complexity is also O(1) as long as we have that pointer at the end of the deque.
 # Use Cases
 
-A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.
+A deque is useful in  many situations. An example would be a DutchBros. coffee stand with two drive up windows. Generally, cars will line up at one window. If this line gets too long, however, cars can enter (enqueue) from the other window going the opposite direction. If both sides have long lines and one side starts to get shorter, the last car in one line can move to the end of the shorter line. Cars can not move from one line to the other if they are in the middle (without causing a huge traffic jam).
 
-A stack is not as useful when we need to access/insert/delte items in the middle of our data, or when we need to alter data already stored.
+A deque is not as useful when we want our data processed in the order it was recieved with no exceptions. This would require a queue.
 
 # Example
 
 ```
-pancake = Stack() #instantiates an empty stack
+myDeque = Deque() #instantiates an empty deque
 
-pancake.push(blueberry) #pushes a blueberry pancake object onto the top of the stack
-pancake.push(bananaCream) #pushes a bananaCream pancake object onto top of stack
-pancake.push(chocolateChip) #pushes a chocolateChip pancake object onto top of stack
-pancake.pop() #removes chocolateChip pancake object from top of stack
+myDeque.enqueueFront(7) #enqueues 7 to the front of the deque
+myDeque.enqueueRear(13) #enqueues 13 to the rear of the deque
+myDeque.enqueueFront(22) #enqueues 22 to the front of the deque
+myDeque.dequeueFront() #dequeues 22 from the deque
+myDeque.dequeueRear() #dequeues 13 from the deque
 ```
 
 (c) 2018 Chevelle Boyer. All rights reserved.
