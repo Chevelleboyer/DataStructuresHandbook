@@ -16,6 +16,7 @@ employer care?).
 * [Queue](queue.md)
 * [Deque](deque.md)
 * [Graph](graph.md)
+* [Tree](tree.md)
 * [Dictionary](dictionary.md)
 * Set
 * 
