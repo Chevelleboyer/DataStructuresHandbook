@@ -4,20 +4,20 @@ A graph is a non-linear data structure. All trees and linked lists are instances
 
 # In Memory
 
-In memory, a stack looks like this:
+In memory, a graph looks like this:
 
 ![Image of Array in Memory](images/array_memory.png)
 
-\[description of diagram\]
+\[This is what a graph looks like in memory when implemented using an adjacency list. In this implementation vertices are stored as objects and each vertex stores a list of adjacent vertices.\]
 
 # Operations
 
-A stack supports the following operations:
+A graph supports the following operations:
 
-* **push**: Pushes an element onto the top of the stack. This operation is O(1) because we maintain a stack pointer that keeps track of where the top of the stack is at all times.
-* **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is important to note that popping does not return the value of the element popped.
-* **peek**: Peek allows us to view the value of the top item on the stack. It is an O(1) operation because of the stack pointer which always points to the top item.
-# Use Cases
+* **addVertex**: If implemented as an adjacency list the complexity of adding a new vertex is O(1). This is because we are just adding a new instance of a vertex.
+* **addEdge**: This operation will add a new edge connecting vertices. If implemented as an adjacency list the complexity is O(1) because we are just adding another adjacent vertex into the list of this vertex.
+* **removeVertex**: The complexity of removing a vertex is O(E) where E is the number of edges. This is because we also have to remove each of the edges conencted the the vertex we want to remove.
+* **removeEdge**: Likewise, the complexity of removing an edge is O(V) because we have to find all of the vertices that this edge connected.
 
 A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.
 
