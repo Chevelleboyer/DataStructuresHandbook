@@ -13,6 +13,7 @@ employer care?).
 * [Linked List](linkedlist.md)
 * [Stack](stack.md)
 * [Queue](queue.md)
+* [Deque](deque.md)
 * [Graph](graph.md)
 * Set
 * Tuple
