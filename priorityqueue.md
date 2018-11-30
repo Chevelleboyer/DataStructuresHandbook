@@ -6,9 +6,8 @@ A priority queue is like a queue, but items have priorty which determines their 
 
 In memory, a priority queue looks like this:
 
-![Image of a Priority Queue in Memory](priorityqueue.jpg)
+![Image of a Priority Queue in Memory](images/priorityqueue.jpg)
 
-\[description of diagram\]
 
 # Operations
 
@@ -26,7 +25,7 @@ A priority queue is not as useful when we want to process our data in a FIFO fas
 # Example
 
 ```
-myPriQue = PriorityQueue()
+myPriorityQueue = PriorityQueue()
 
 myPriQue.enqueue(17) #enqueues 17 based on priority
 myPriQue.enqueue(22) #enqueues 22 based on priority

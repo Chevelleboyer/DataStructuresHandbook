@@ -8,7 +8,6 @@ In memory, a tuple looks like this:
 
 ![Image of Tuple in Memory](images/tuple.jpg)
 
-\[description of diagram\]
 
 # Operations
 

@@ -8,7 +8,6 @@ In memory, a linked list looks like this:
 
 ![Image of Linked List in Memory](images/linkedlist.jpg)
 
-\[description of diagram\]
 
 # Operations
 

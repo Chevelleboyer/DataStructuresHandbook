@@ -8,7 +8,6 @@ In memory, a set looks like this:
 
 ![Image of Set in Memory](images/set.jpg)
 
-\[description of diagram\]
 
 # Operations
 

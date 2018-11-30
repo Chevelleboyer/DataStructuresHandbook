@@ -8,7 +8,6 @@ In memory, a queue looks like this:
 
 ![Image of Queue in Memory](images/queue.jpg)
 
-\[description of diagram\]
 
 # Operations
 

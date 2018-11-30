@@ -8,7 +8,7 @@ In memory, a deque looks like this:
 
 ![Image of Deque in Memory](images/deque.jpg)
 
-\[The two pointers will increase or decrease by one accordingly whenever an item is enqueued or dequeued from the the deque. Notice that the \]
+\[The two pointers will increase or decrease by one accordingly whenever an item is enqueued or dequeued from the the deque.\]
 
 # Operations
 

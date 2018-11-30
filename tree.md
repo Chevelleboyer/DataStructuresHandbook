@@ -8,8 +8,6 @@ In memory, a binary search tree looks like this:
 
 ![Image of a Binary Search Tree in Memory](images/bst.jpg)
 
-\[description of diagram\]
-
 # Operations
 
 A binary search tree supports the following operations:
