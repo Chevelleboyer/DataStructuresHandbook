@@ -16,7 +16,7 @@ employer care?).
 * [Deque](deque.md)
 * [Graph](graph.md)
 * Set
-* Tuple
+* [Tuple](tuple.md)
 * Dictionary
 * 
 
