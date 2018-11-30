@@ -19,6 +19,8 @@ A dictionary supports the following operations:
 * **add(key, value)**: Adding a key value pair to a dictionary is O(1) complexity becuase it just takes one calculation to perform the hash function to get the index to place the key. If we have to make our hastable larger then this operation becomes O(n)
 * **del**: Deleting a key from a dictionary is an O(1) operation becasue we can find the index it is stored via a hash function and then remove it. Since the index of each item is based on the hash function of its value we do not need to shift values over after deleting or inserting a key.
 
+# Use Cases
+
 A dictionary is useful when we want to store a group of objects. For example if we wanted to store test scores, we could create a test scores dictionary and store students names as the key and their test score as the value.
 
 A dictionary is not as usefule when 

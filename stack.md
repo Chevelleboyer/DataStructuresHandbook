@@ -17,6 +17,7 @@ A stack supports the following operations:
 * **push**: Pushes an element onto the top of the stack. This operation is O(1) because we maintain a stack pointer that keeps track of where the top of the stack is at all times.
 * **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is important to note that popping does not return the value of the element popped.
 * **peek**: Peek allows us to view the value of the top item on the stack. It is an O(1) operation because of the stack pointer which always points to the top item.
+
 # Use Cases
 
 A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.

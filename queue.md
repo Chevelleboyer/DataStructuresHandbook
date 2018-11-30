@@ -16,6 +16,7 @@ A queue supports the following operations:
 
 * **dequeue**: Dequeueing the first item from the queue. This operation has a complexity of O(1) because in the implementation we maintain a pointer to the first variable in the array or linked list (however we choose to implement it) to allow for constant time.
 * **enqueue**: Enqueueing an item to the end of the queue. The complexity of this operation is also O(1) because we only ever enqueue to the end of the list. Whether we implement the queue using an array or a linked list this operation can be made O(1) by maintaing a pointer at the end of the array or linked list.
+
 # Use Cases
 
 A queue is useful when we need things to be processed in the order of which they come. An example of this would be a printer in the home. More than likely there is only one printer but many devices connected to it. The printer can print documents from all of them by printing in the order that they were sent to it.

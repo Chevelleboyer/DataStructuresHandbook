@@ -19,6 +19,8 @@ A graph supports the following operations:
 * **removeVertex**: The complexity of removing a vertex is O(E) where E is the number of edges. This is because we also have to remove each of the edges conencted the the vertex we want to remove.
 * **removeEdge**: Likewise, the complexity of removing an edge is O(V) because we have to find all of the vertices that this edge connected.
 
+# Use Cases
+
 A graph is used to represent a network, so it is useful in many problems. Like representing phone networks. Another example would be friends on facebook. Each vertex would be a person with their information, and the edges connect friends and friends of friends.
 
 # Example

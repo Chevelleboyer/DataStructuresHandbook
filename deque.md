@@ -18,6 +18,7 @@ A deque supports the following operations:
 * **enqueueRear**: EnqueueRear enqueues an item to the reat of the queue. As with enqueueing from a normal queue, the complexity is O(1) as long as we maintain a pointer to the rear of the deque.
 * **dequeueFront**: DequeueFront dequeues an item from the front of the queue with a complexity of O(1) just like dequeing from a normal queue this is possible with a pointer at the front of the queue.
 * **dequeueRear**: DequeueRear dequeues an item from the rear of the deque. The complexity is also O(1) as long as we have that pointer at the end of the deque.
+
 # Use Cases
 
 A deque is useful in  many situations. An example would be a DutchBros. coffee stand with two drive up windows. Generally, cars will line up at one window. If this line gets too long, however, cars can enter (enqueue) from the other window going the opposite direction. If both sides have long lines and one side starts to get shorter, the last car in one line can move to the end of the shorter line. Cars can not move from one line to the other if they are in the middle (without causing a huge traffic jam).

@@ -16,6 +16,8 @@ A tuple supports the following operations:
 
 * **access/search**: Accessing or searching for an element in the tuple has a complexity of O(1). This is because just like with an array the tuple variable points to the memory base address. From there we can do one calculation, base address + index, to access any element. This is the only operation supported by a tuple because it is immutable. Since it cannot be changed we cannot insert or delete elements.
 
+# Use Cases
+
 A tuple is useful when we have data that will not be changed and we need fast access. Likewise, if we do not want our data to be altered a tuple is useful.
 
 A tuple is not useful when we will need to alter our data such as making insertions/deletions.
