@@ -18,7 +18,6 @@ employer care?).
 * [Graph](graph.md)
 * [Tree](tree.md)
 * [Dictionary](dictionary.md)
-* Set
-* 
+* [Set](set.md)
 
 (c) Chevelle Boyer. All rights reserved.
