@@ -19,19 +19,16 @@ A graph supports the following operations:
 * **removeVertex**: The complexity of removing a vertex is O(E) where E is the number of edges. This is because we also have to remove each of the edges conencted the the vertex we want to remove.
 * **removeEdge**: Likewise, the complexity of removing an edge is O(V) because we have to find all of the vertices that this edge connected.
 
-A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.
-
-A stack is not as useful when we need to access/insert/delte items in the middle of our data, or when we need to alter data already stored.
+A graph is used to represent a network, so it is useful in many problems. Like representing phone networks. Another example would be friends on facebook. Each vertex would be a person with their information, and the edges connect friends and friends of friends.
 
 # Example
 
 ```
-pancake = Stack() #instantiates an empty stack
+myGraph = Graph() 
 
-pancake.push(blueberry) #pushes a blueberry pancake object onto the top of the stack
-pancake.push(bananaCream) #pushes a bananaCream pancake object onto top of stack
-pancake.push(chocolateChip) #pushes a chocolateChip pancake object onto top of stack
-pancake.pop() #removes chocolateChip pancake object from top of stack
+myGraph.addVertex(1) #adds a vertex to myGraph with a key of 1
+myGraph.addVertex(7) #adds a vertex to myGraph with a key of 7
+myGraph.addEdge(1, 7, 22) #adds an edge from key 1 to key 7 with a weight of 22
 ```
 
 (c) 2018 Chevelle Boyer. All rights reserved.
