@@ -17,8 +17,8 @@ A binary search tree supports the following operations:
 * **search**: Searching for a node in a binary tree has a complexity of O(log(n)) because we are cutting the amount of data that needs to be searched in half each time. If we are looking for 15, and our root is 20, we can eliminate everything to the right of the node with value 20.
 * **insert**: Inserting a new node into a binary search tree is also O(log(n)) because we are eliminating half of the data each time. If we want to insert 32 and the root node is 10, we know we can eliminate all the data on the left side of the root.
 * **delete**: The complexity of deleting a node is O(log(n)) too, for the same reasons as insert and search.
-*It is worth mentiong the three tree traversals. Preorder, Inorder, Postorder. **Preorder**: Recursivley searches the root first, then left, then right. **Inorder**: Recursivley searches the left node, then root, then right. **Postorder**: Recursivley searches the left node, then right, then root.
-*It is also important to note that these are only average complexities. See below under Use Cases.
+* It is worth mentiong the three tree traversals. Preorder, Inorder, Postorder. **Preorder**: Recursivley searches the root first, then left, then right. **Inorder**: Recursivley searches the left node, then root, then right. **Postorder**: Recursivley searches the left node, then right, then root.
+* It is also important to note that these are only average complexities. See below under Use Cases.
 
 
 # Use Cases
