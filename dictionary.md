@@ -21,9 +21,9 @@ A dictionary supports the following operations:
 
 # Use Cases
 
-A dictionary is useful when we want to store a group of objects. For example if we wanted to store test scores, we could create a test scores dictionary and store students names as the key and their test score as the value.
+A dictionary is useful when we want to keep track of values associated with a particular key. For example if we wanted to store test scores, we could create a test scores dictionary and store students names as the key and their test scores as the values.
 
-A dictionary is not as usefule when 
+A dictionary is not as useful when there is not a natural key-value association. Nor would they be as useful when it requires a lot of searching on the values (rather than the keys).
 
 # Example
 
