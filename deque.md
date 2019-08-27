@@ -1,6 +1,6 @@
 # Deque
 
-A deque is a double ended queue. Meaning that it is a queue that can support items being enqueued to the front and rear. It can also support items being dequeued from the front and rear. It has the capabilities of a stack and queue but it is neither a LIFO or FIFO data structure.
+A deque is a double ended queue. Meaning that it is a queue that can support items being enqueued to the front and rear. It can also support items being dequeued from the front and rear.
 
 # In Memory
 
