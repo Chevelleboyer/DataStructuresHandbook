@@ -1,6 +1,6 @@
 # Tree
 
-A tree is a non-linear data structure. It consists of nodes, edges which connect the nodes, and a root. The root is the very top node in the tree. There are many different types of trees. A binary tree, each node can have at most two children. A Binary Search Tree. Like a binary tree each node can have atmost two children. Any node in a bst must be greater than the values to the left of it, and less than any values to the right of it. Binary Search Trees are divide and conquer structures. They typically have 4 pointers, one to their place in memory, another to their parent, and two more pointing to their left and right children.
+A tree is a non-linear data structure. It consists of nodes, edges which connect the nodes, and a root. The root is the top most node in the tree. There are many different types of trees. A binary tree where each node can have at most two children. A Binary Search Tree which is like a binary tree, however, the left subtree has values less than the parent node, and the right subtree has values greater than the parent node. They allow for divide and conquer algorithms.
 
 # In Memory
 
