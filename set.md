@@ -1,6 +1,6 @@
 # Set
 
-A set is an unordered collection of data objects similar to dictionaries but with only keys. Sets do not allow duplicates. Because of these behaviors a set guarentees everything is unique.
+A set is an unordered collection of data objects similar to dictionaries but with only keys. Sets do not allow duplicates. Because of these behaviors a set guarentees everything is unique. Sets are also heterogeneous, meaning they aren't limited to a single data type such as ints.
 
 # In Memory
 
@@ -19,7 +19,7 @@ A set supports the following operations:
 
 # Use Cases
 
-A set is useful when we have a lot of data that has no real order. An example of a set would be ingridients for a recipe. Often a recipe will call for butter twice, or 2 egg yolks and seperatly call for 2 egg whites. This might be because we need to use butter in the pie, and the other butter is meant for the pie crust. When we go to the store to shop for the ingridients we don't look at the list and buy 2 tablespoons of butter, then other ingridients, then go grab another 3 tablespoons of butter when we read it again. We just care that we need the butter once. So we could put all the ingridients into a set and this would efficiently help us shop.
+A set is useful when we have a lot of data that has no real order. An example of when a set could be useful would be reading recipes. Upon first glance of the cook book you see 1/2 cup of butter is required for the filling so you take it out to thaw and continue. Once the filling is made you move on to the crust and see another 1/2 cup of butter is required for the crust so you are stuck waiting for ANOTHER 1/2 cup of butter to thaw. This ordeal could have been avoided if all the ingridients were in a set. Since sets do not allow for duplicates we would have seen upon first glance that we needed to thaw a total of 1 cup of butter.
 
 # Example
 
