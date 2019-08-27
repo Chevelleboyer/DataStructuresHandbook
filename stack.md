@@ -1,6 +1,6 @@
 # Stack
 
-A stack is a linear, and a LIFO (last in first out), data structure.
+A stack is a linear data structure that is LIFO in nature. When using a stack you push items into it. If you ever want to use those items, you can only take them off from the top.
 
 # In Memory
 
@@ -18,7 +18,7 @@ A stack supports the following operations:
 
 # Use Cases
 
-A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required.
+A stack is useful when we want something in reverse order due to the nature of LIFO. For example when the use of backtracking is required. Another example might be when reversing something. For example: If we pushed the letters of "apple" in a stack, popping them off would result in "elppa".
 
 A stack is not as useful when we need to access/insert/delte items in the middle of our data, or when we need to alter data already stored.
 
