@@ -2,7 +2,7 @@
 
 by Chevelle Boyer
 
-This is a summary of the data structures I have mastered. Data structures are a way to efficiently store and organize data. These are important to know because they show an understanding of the actual mechanics. Knowing data structures also proves that given a problem I am equipped with the neccesary tools to solve it in an efficient and practical manner.
+This is a summary of the data structures I have mastered. Data structures are an efficient way to store, organize, and manipulate data. These are important to know because they show an actual understanding of the working mechanics and what's going on under the hood. Knowing these data structures also proves that given a problem I am equipped with the neccesary tools to create a solution in the most efficient and practical manner.
 
 ## The List
 
