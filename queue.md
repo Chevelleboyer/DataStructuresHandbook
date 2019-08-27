@@ -1,6 +1,6 @@
 # Queue
 
-A queue is a linear data structure but it is not a contiguous block of memory. It can be thought of as an ordered collection of items. It is a FIFO data structure meaning its nature is first in first out. This can be thought of as "first come first served."
+A queue is a linear data structure that could be a contiguous block of memory (if implemented as a dynamic array). But it could also resemble a linked structure (if implemented using a linked list). It can be thought of as an ordered collection of items, similar to a line in the real world. It is a FIFO data structure meaning its nature is first in first out. This can be thought of as "first come first served."
 
 # In Memory
 
