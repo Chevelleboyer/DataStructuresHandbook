@@ -13,7 +13,7 @@ In memory, a stack looks like this:
 A stack supports the following operations:
 
 * **push**: Pushes an element onto the top of the stack. This operation is O(1) because we maintain a stack pointer that keeps track of where the top of the stack is at all times. Every time we wish to push an item, we just push to the memory address of the current top. No other elements are shifting or moving becuase the new item always goes to the top most position.
-* **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is important to note that popping does not return the value of the element popped. It is also an O(1) operation. Due to the stack pointer there is no indexing taking place to find the item we wish to pop, we know exactly where it is in memory allowing for a singly operation. 
+* **pop**: This operation will pop (which is like a deletion) the top item off of the stack. It is also an O(1) operation. Due to the stack pointer there is no indexing taking place to find the item we wish to pop, we know exactly where it is in memory allowing for a singly operation. 
 * **peek**: Peek allows us to view the value of the top item on the stack. It is an O(1) operation because of the stack pointer which always points to the top item.
 
 # Use Cases
