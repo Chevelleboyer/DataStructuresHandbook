@@ -13,7 +13,7 @@ In memory, a tuple looks like this:
 
 A tuple supports the following operations:
 
-* **access**: Accessing an element in the tuple has a complexity of O(1) if done with the index. This is because just like with an array the tuple variable points to the memory base address. From there we can do one calculation, base address + index, to access any element. This is the only operation supported by a tuple because it is immutable. Since it cannot be changed we cannot insert or delete elements.
+* **access**: Accessing an element in the tuple has a complexity of O(1) if done with the index, and O(n) if the index is not known. This is because just like with an array the tuple variable points to the memory base address. From there we can do one calculation, base address + index, to access any element. This is the only operation supported by a tuple because it is immutable. Since it cannot be changed we cannot insert or delete elements.
 
 # Use Cases
 
